@@ -16,7 +16,7 @@ def index(response, id):
 					item.complete = True
 				else:
 					item.complete = False
-
+ 
 
 				item.save()
 
